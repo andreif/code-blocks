@@ -104,6 +104,15 @@ because they require Google Drive authorization.
 | `npm run push:static` | just HTML & CSS |
 | `npm run push` | everything |
 
+
+## Creating App Script project
+In order to push the code to App Script you need to authorize and create a new project (project id and config are saved to `.clasp.json`)
+
+```
+clasp login
+clasp create --title CodeBlocks --type standalone --rootDir ./dist
+```
+
 ## Google Apps Script Resources
 
 * https://developers.google.com/apps-script/guides/clasp
