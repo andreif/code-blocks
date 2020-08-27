@@ -1,7 +1,7 @@
 {
   "name": "code-blocks",
   "version": "1.4.2",
-  "repository": "https://github.com/alexwforsythe/code-blocks",
+  "repository": "https://github.com/andreif/code-blocks",
   "license": "MIT",
   "engines": {
     "node": ">=4.2.0"

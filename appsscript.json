@@ -1,10 +1,8 @@
 {
-  "timeZone": "America/Los_Angeles",
-  "oauthScopes": [
-    "https://www.googleapis.com/auth/documents.currentonly",
-    "https://www.googleapis.com/auth/script.container.ui"
-  ],
+  "timeZone": "Europe/Paris",
   "dependencies": {
   },
-  "exceptionLogging": "STACKDRIVER"
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/documents.currentonly", "https://www.googleapis.com/auth/script.container.ui"],
+  "runtimeVersion": "V8"
 }
